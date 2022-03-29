@@ -1,0 +1,27 @@
+package com.example.modelo;
+
+public class Noticia {
+	private String titulo;
+	private String bajada;
+	private String imgUrl;
+	
+	//Constructor vacio.
+	public Noticia() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	//Constructor con atributos.
+	public Noticia(String titulo, String bajada, String imgUrl) {
+		super();
+		this.titulo = titulo;
+		this.bajada = bajada;
+		this.imgUrl = imgUrl;
+	}
+	
+	
+	 
+	
+
+
+}
